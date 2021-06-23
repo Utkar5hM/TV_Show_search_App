@@ -145,3 +145,26 @@ input:focus, textarea:focus {
 .footer a{
     text-decoration: none;
 }
+@media(max-width:750px){
+    .searchbar{
+        flex-direction: column;
+    }
+    .searchform{
+        padding-right:0;
+    }
+    .searchbar input {
+        min-width: 0;
+        width: 98%;
+        margin-right: 0;
+        padding-right: 0;
+        height:40px;
+    }
+    .searchform button{
+        text-align: center;
+        margin-top: 15px;
+        margin-right: 0;
+        width:100px;
+        height:40px;
+    }
+    
+}
